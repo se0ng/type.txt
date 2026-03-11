@@ -159,13 +159,19 @@ a {
     font-family: var(--f-system);
     font-size: 80px;
     font-weight: bold;
-    text-align: justify;
+    text-align: center;
     align-content: center;
 
     filter: blur(2px);
     scrollbar-width: none;
     caret-color: transparent;
     resize: none;
+}
+
+@media (min-width:768px) {
+    .txt {
+        font-size: 120px;
+    }
 }
 
 /* FOOTER */
